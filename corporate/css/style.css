@@ -1,0 +1,689 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Alternates.woff);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header .navbar .nav-link, header .navbar .nav-link.active {
+    color: #fff;
+}
+
+header .navbar-nav > .nav-item {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0 1rem;
+}
+
+.v-sep {
+    position: relative;
+    padding: 0 1.3rem;
+}
+
+.v-sep::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: calc(50% - 7px);
+    height: 14px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#hero .carousel-item {
+    height: 100vh;
+    overflow: hidden;
+}
+#hero .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+#hero .carousel-caption{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.338);
+}
+header .dropdown-item:hover
+{
+        color:rgb(80, 80, 80);
+    transition: ease-in;
+    
+}
+#craft{
+    display: flex;
+}
+
+.content{
+    position:absolute ;
+    width: 500px;
+    top: 115%;
+    right: 150px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    padding-right:30px;
+    width: calc(96% / 2);
+    
+}
+.cards .card img{
+    margin-bottom: 15px;
+}
+.cards .card .p{
+    color: #232323;
+    font-weight: 20px;
+}
+.cards .card h4{
+    font-family: monospace;
+    font-weight: 600;
+font-size: 18px;}
+.card .one{
+margin-left: 50px;
+}
+.card .fa-solid {
+    margin-bottom: 10px;
+}
+.content .intro .p{
+    color: red;
+}
+.content .intro h2{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#animations{
+    margin-top: 100px;
+}
+.intr{
+    text-align: center;
+    padding: 0 400px;
+    margin-bottom: 100px;
+}
+.intr p{
+    color: #232323;
+}
+.intr h2{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.Cards{
+    display: flex;
+    padding: 0 200px;
+}
+.Cards .Card{
+    width: calc(90% / 4);
+    margin: 0 calc(10% / 8);
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.276);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.Cards .Card img{
+    margin-bottom: 30px;
+    width: 40%;
+}
+.Cards .Card .fa-pen-ruler{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.Cards .Card h5{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.Card .card p{
+    color: #232323;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#data{
+    display: flex;
+}
+#data .card-data{
+    width: calc(100% / 4);
+}
+#data .card-data.con{
+    padding: 50px;
+    background-color: black;
+
+}
+#data .card-data img{
+    width: 100%;
+}
+#data .card-data span{
+    font-size: 14px;
+    line-height: 24px;
+    color:gray;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#data .card-data h4{
+    color: white;
+    font-family: inherit;
+    margin-bottom: 30px;
+}
+#data .card-data p{
+    color: rgba(128, 128, 128, 0.665);
+    margin-bottom: 30px;
+}
+
+#data .card-data a{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border:1px solid #fff;
+    color: white;
+
+}
+#data .con a:hover {
+    color:black;
+    background-color: white;
+}
+#image-web .links {
+     text-align: center;
+     margin: 100px 0;
+     font-family: monospace;
+}
+#image-web .links a{
+    margin-left: 20px;
+    color: rgba(128, 128, 128, 0.626);
+}
+#image-web .links .a-text a{
+    color: gray;
+    border-bottom: 1px solid black;
+}
+#image-web a:hover{
+    color: gray;
+    border-bottom: 1px solid black;
+    transition: ease-in;
+}
+.image .imgs{
+    width:calc(92% / 4);
+    margin: 2% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+}
+.image .imgs .con-imgs{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 1.3rem;   
+}
+.image .imgs .con-imgs h6{
+    font-family: cursive;
+}
+.card .row{
+    padding: 100px;
+}
+#website #a-btn:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white !important;
+}
+.l-content{
+    padding: 0 100px;
+}
+.l-content .d-flex{
+    margin-top: 20px;
+
+}
+#Products{
+    background-color: rgba(128, 128, 128, 0.093);
+}
+#Products .pro{
+    width: calc(100% / 2);
+}
+.pro-content{
+    margin-left: 10px;
+    padding: 0 10px;
+}
+#Products .pro-content span{
+    color: black;
+    margin-bottom: 20px;
+}
+#Products .pro-content p{
+    color: gray;
+    margin-top: 10px;
+}
+.icon-solid i{
+    font-size: 40px;
+}
+#our-services{
+    margin-top: 7%;
+}
+#our-services .our-serv {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+#our-services .our-serv p{
+    font-family: inherit;
+    color: #939393;
+}
+#our-services .our-serv h4{
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#our-services .our-serv hr{
+    border: 2px solid red;
+    background-color: red;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card-image-our{
+    justify-content: center;
+    margin-top: 30px;
+}
+#website-uniq{
+    background-image: url(https://pofo.b-cdn.net/wp-content/uploads/2017/05/homepage-9-parallax-img5.jpg) !important;
+    background-attachment: fixed;
+}
+#website-uniq .col-md-6 h2{
+    color: white;
+}
+#website-uniq .col-md-6 .mb-5 p{
+    color: gray;
+}
+#website-uniq .col-md-6 .mb-5 p .fa-solid{
+    color: red;
+}
+#btn:hover{
+    background-color: white !important;
+}
+#web-development-services{
+    padding: 50px;
+}
+#web-development-services .card .col5{
+padding: 20px 0;
+}
+#web-development-services .card .col5 >p{
+    color: red;
+    font-family: cursive;
+}
+#web-development-services .card .row{
+align-items: center;           
+justify-content: space-around;
+
+}
+#btn-1:hover{
+    border: 1px solid black !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    margin-top: 100px;
+    
+     /* Remove this if you don't want the 3D effect */
+}
+.hover-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+} 
+#our-services{
+    margin-bottom: 100px;
+}
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotatex(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    width: 400px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: red;
+    color: white;
+    transform: rotatex(180deg);
+    align-items: center;
+    padding: 10px;
+  }
+.under-flip{
+    text-align: center;
+    margin-top: 10px;
+}
+.under-flip p{
+    font-family: sans-serif;
+    font-size: larger;
+    margin-bottom: -0;
+}
+.under-flip span{
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+#CARDS-3 .fa-solid{
+    font-size: 50px;
+}
+#CARDS-3 .d-flex{
+    width: calc(90% / 3);
+    margin: 0 calc(10% / 6);
+    padding: 50px 100px;
+}
+#CARDS-3 .pro-content P{
+    color: #939393;
+}
+#experience{
+    align-items: center;
+    background-color: #8080802b;
+
+}
+.txt-7{
+    position: relative;
+    padding: 0 150px;
+}
+#experience .col5{
+flex-direction: column;
+}
+#experience .col5 >p{
+    color: red;
+}
+#experience .col5 >h2{
+    font-weight: 600;
+    font-size: xx-large;
+    margin: -17px 0;
+}
+#details{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.details-card .div-icon{
+        margin-right:20px ;
+}
+.div-deta span{
+    color: #232323;
+    font-family: 'FontAwesome';
+}
+.div-deta p{
+    color: gray;
+    font-family: sans-serif;
+}
+#fream-page{
+    margin-bottom: 40px;
+}
+#fream-page img{
+    height: 83%;
+}
+.fream-content{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 300px;
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+}
+.fream-content h2{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: xxx-large;
+    padding: 0 0px;
+}
+.fream-content p{
+    padding: 0 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.704);
+}
+#fream-page i:hover{
+    font-size: 120px !important;
+    transition: linear !important;
+}
+#image-scroll{
+    justify-content: center;
+    margin-bottom: 150px;
+}
+#CLIENTS-WORDS{
+    background-color: #8080802b;
+    margin-bottom: 100px;
+}
+.clients {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 7% 0;
+}
+#CLIENTS-WORDS .clients p{
+    font-family: inherit;
+    color: #939393;
+}
+#CLIENTS-WORDS .clients h4{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+#CLIENTS-WORDS .clients hr{
+    border: 2px solid red;
+    background-color: red;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.div-card-client{
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+.div-card-clients{
+    background-color: white;
+    padding: 15px;
+    width: 390px;
+    height: 386.638px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.div-card-clients img{
+    border-radius: 50%;
+    margin: 30px 0;
+    width: 100px;
+}
+.div-card-clients p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.div-card-clients h4{
+    line-height: 10px;
+    font-weight: 600;
+    color: #232323;
+    font-size: 12px;
+}
+.div-card-clients span{
+    color: #939393;
+    font-size: 11px;
+    line-height: 14px;
+}
+.circle{
+    justify-content: center;
+}
+.circle-div{
+    border-radius: 50%;
+    text-align: center;
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-bottom: 200px;
+}
+#CLIENTS-WORDS .circle-div:hover{
+    background-color: black;
+}
+#LATEST-BLOGS{
+    margin: 100px 0;
+}
+#LATEST-BLOGS .latest-blog{
+    margin-top: 30px;
+}
+.latest-blog {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 7% 0;
+}
+#LATEST-BLOGS .latest-blog p{
+    font-family: inherit;
+    color: #939393;
+}
+#LATEST-BLOGS .latest-blog h4{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+#LATEST-BLOGS .latest-blog hr{
+    border: 2px solid red;
+    background-color: red;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card-blog{
+    margin-top: 20px;
+    visibility: visible;
+    animation-name: fadeInUp;
+    margin-bottom: 50px;
+    width: calc(80% / 4);
+    /* justify-content: center; */
+}
+.card-blogs-par{
+    justify-content: space-evenly;
+    padding: 0 100px;
+}
+.card-blog h6{
+    color: #939393;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.card-blog a{
+    width: 90%;
+    color: #232323;
+    font-size: 16px;
+    line-height: 23px;   
+}
+.card-blog hr{
+    width: 100%;
+}
+.card-blog p{
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
+#LATEST-BLOGS img:hover{
+        transition: ease-in-out;
+}
+#LATEST-BLOGS span:hover{
+    color: red;
+}
+#LATEST-BLOGS a:hover{
+    color: red;
+    
+}
+.head-footer{
+    background-color: black;
+    color: #636363;
+    padding: 50px;
+    font-weight: 500;
+    justify-content: space-around;
+}
+#footer{
+    background-color:#1C1C1C ;
+}
+#footer .span:hover{
+    color: red;
+}
+#footer .head-icon:hover{
+    color:red;
+}
+.icon span{
+    margin-right: 10px;
+}
+.body-footer{
+    padding: 100px 200px;
+    margin-top: 30px;
+    width: calc(100% / 4);
+}
+.left-div-body p{
+    color: #939393;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+}
+.left-div-body span{
+    font-size: 12px;
+    line-height: 20px;
+    color: #6f6f6f;
+}
+.img-left-center{
+    font-size: 12px;
+    line-height: 20px;
+    color: #6f6f6f;
+    justify-content: space-between;
+}
+.foot-footer{
+    color: #6f6f6f;
+    justify-content: space-between;
+    padding: 100px 200px;
+    font-size: 16px;
+}
